@@ -1,240 +1,152 @@
-import {
-  ClevertechLogo,
-  ConsultlyLogo,
-  JojoMobileLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Bharath Kumar G",
+  initials: "G",
+  location: "Bengaluru, Karnataka",
+  locationLink: "https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9537902,77.3012781,10z/data=!3m1!4b1!4m6!3m5!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9715987!4d77.5945627!16zL20vMDljMTc?sca_esv=ee0ce238400f6c7c&sca_upv=1&output=search&q=bangalore&source=lnms&ved=1t:200715&ictx=111&entry=tts",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Detail-oriented Full Stack Engineer committed to delivering innovative, high-quality software solutions.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Dedicated Full Stack Developer with expertise in crafting dynamic, user-friendly web applications. Proficient in both front-end and back-end development, I deliver seamless, scalable solutions that enhance user experience and meet complex technical requirements.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQG324re2IEBgg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723185136744?e=1739404800&v=beta&t=45hrK_uSi7GsC7QA5IWhDdbRG3NdYHEo0pGc_z-GCJM",
+  personalWebsiteUrl: "https://bharathz.xyz",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "bharathkumargwork8@gmail.com",
+    tel: "+918618913622",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/bharathz8/",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/bharath-kumar-g-bk8/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/Kingluffyz",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "The Oxford College Of Science",
+      degree: "Bachelor's computer application (BCA)",
+      start: "2021",
+      end: "2024",
     },
   ],
+
+
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Prinston Smart Engineers",
+      link: "https://prinstonsmart.com/",
       badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
+        "Python",
+        "Machine Learning"
       ],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
+      title: "Machine Learning Intern",
+      start: "2024",
       end: "2024",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Completed a Machine Learning internship at Prinston Smart Engineers, focusing on predictive models and medical imaging.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+            Car Evaluation Model: Achieved 90% prediction accuracy using decision trees, random forests, and SVMs
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Medical Imaging Projects: Increased detection accuracy by 75% for eye cataracts and 85% for brain tumors
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      company: "Freelancer",
+      link: "",
+      badges: ["Remote", "React", "smart contracts", "web3", "Node"],
+      title: "full stack devloper & Admin",
+      start: "2022",
+      end: "2023",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          Worked as a Junior Developer and Admin at Crypto3dPunks, DragonFam, CryberianFT, and EternalSeals, contributing to smart contract development and NFT management.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+            Smart Contracts: Developed and deployed over 20 smart contracts on Ethereum and Solana, ensuring 100% functionality and
+            security
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
+            NFT Generation: Created and managed 100,000+ unique NFTs for clients, enhancing digital asset quality.
             </li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
+
   skills: [
-    "React/Next.js/Remix",
+    "React",
     "TypeScript",
     "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Node",
+    "Express",
+    "MongoDB",
+    "Postgres",
+    "Restful APIs",
+    "Git",
+    "Github",
+    "Windows",
+    "Linux",
+    "SDLC",
+    "Soft SKills"
   ],
+
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "PathGPT",
+      techStack: ["React", "Gemini API", "state Management"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
+        "PathGPT is an AI platform that suggests personalized career paths or courses based on user inputs, offering tailored recommendations for educational and professional decisions.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "PathGPT",
+        href: "https://pathgpt.vercel.app/",
       },
     },
     {
-      title: "Consultly",
+      title: "site Craftor",
       techStack: [
         "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
+        "React",
+        "Gemini API",
+        "Node",
+        "Express",
+        "Web Container",
       ],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
+        "SiteCraftor is an AI-powered platform that automates website creation, allowing users to quickly build professional websites with ease. It streamlines the design and deployment process, making website building accessible to everyone.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "site Craftor",
+        href: "https://github.com/bharathz8/sitecraftor",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "cryptoViz",
+      techStack: ["React", "CoinGecko API", "Tailwind CSS", "State Management"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
+        "CryptoViz is a platform that provides real-time statistics and insights on various cryptocurrencies, helping users stay updated on market trends. It offers an easy-to-use interface for tracking coin prices, volume, and other key metrics.",
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "Site Craftor",
+        href: "https://github.com/bharathz8/cryptoviz",
       },
     },
   ],
