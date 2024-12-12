@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${RESUME_DATA.name} - Resume`,
+    title: `${RESUME_DATA.name}`,
     description: RESUME_DATA.about,
     images: ["https://i.postimg.cc/3wT8L1Sk/bharath-web.jpg"],
   },
