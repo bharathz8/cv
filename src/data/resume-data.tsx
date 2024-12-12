@@ -9,7 +9,7 @@ export const RESUME_DATA = {
     "Detail-oriented Full Stack Engineer committed to delivering innovative, high-quality software solutions.",
   summary: (
     <>
-      Dedicated Full Stack Developer with expertise in crafting dynamic, user-friendly web applications. Proficient in both front-end and back-end development, I deliver seamless, scalable solutions that enhance user experience and meet complex technical requirements.
+     Meticulous Full Stack Engineer crafting high-performance software solutions.
     </>
   ),
   avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQG324re2IEBgg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723185136744?e=1739404800&v=beta&t=45hrK_uSi7GsC7QA5IWhDdbRG3NdYHEo0pGc_z-GCJM",
@@ -119,7 +119,7 @@ export const RESUME_DATA = {
         "PathGPT is an AI platform that suggests personalized career paths or courses based on user inputs, offering tailored recommendations for educational and professional decisions.",
       link: {
         label: "PathGPT",
-        href: "https://pathgpt.vercel.app/",
+        href: "https://path-gpt.vercel.app/",
       },
     },
     {
