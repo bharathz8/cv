@@ -9,10 +9,10 @@ import { Skills } from "./components/Skills";
 import { Header } from "./components/Header";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} - Resume`,
+  title: `${RESUME_DATA.name}`,
   description: RESUME_DATA.about,
   openGraph: {
-    title: `${RESUME_DATA.name} - Resume`,
+    title: `${RESUME_DATA.name}`,
     description: RESUME_DATA.about,
     type: "profile",
     locale: "en_US",
