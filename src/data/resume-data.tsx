@@ -6,10 +6,10 @@ export const RESUME_DATA = {
   location: "Bengaluru, Karnataka",
   locationLink: "https://www.google.com/maps/place/Bengaluru,+Karnataka/@12.9537902,77.3012781,10z/data=!3m1!4b1!4m6!3m5!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!8m2!3d12.9715987!4d77.5945627!16zL20vMDljMTc?sca_esv=ee0ce238400f6c7c&sca_upv=1&output=search&q=bangalore&source=lnms&ved=1t:200715&ictx=111&entry=tts",
   about:
-    "Detail-oriented Full Stack Engineer committed to delivering innovative, high-quality software solutions.",
+    "Meticulous Full Stack Engineer crafting high-performance software solutions.",
   summary: (
     <>
-     Meticulous Full Stack Engineer crafting high-performance software solutions.
+     Dedicated Full Stack Developer with expertise in crafting dynamic, user-friendly web applications. Proficient in both front-end and back-end development, I deliver seamless, scalable solutions that enhance user experience and meet complex technical requirements.
     </>
   ),
   avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQG324re2IEBgg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723185136744?e=1739404800&v=beta&t=45hrK_uSi7GsC7QA5IWhDdbRG3NdYHEo0pGc_z-GCJM",
