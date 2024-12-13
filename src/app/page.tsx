@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://i.postimg.cc/3wT8L1Sk/bharath-web.jpg",
+        url: "https://i.postimg.cc/jjCYk6s3/bharath-website.png",
         width: 1200,
         height: 630,
         alt: `${RESUME_DATA.name}'s profile picture`,
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${RESUME_DATA.name}`,
     description: RESUME_DATA.about,
-    images: ["https://i.postimg.cc/3wT8L1Sk/bharath-web.jpg"],
+    images: ["https://i.postimg.cc/jjCYk6s3/bharath-website.png"],
   },
 };
 
