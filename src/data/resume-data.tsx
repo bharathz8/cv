@@ -123,7 +123,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "site Craftor",
+      title: "web builder",
       techStack: [
         "TypeScript",
         "React",
@@ -135,7 +135,7 @@ export const RESUME_DATA = {
       description:
         "SiteCraftor is an AI-powered platform that automates website creation, allowing users to quickly build professional websites with ease. It streamlines the design and deployment process, making website building accessible to everyone.",
       link: {
-        label: "site Craftor",
+        label: "web builder",
         href: "https://github.com/bharathz8/website-builder",
       },
     },
