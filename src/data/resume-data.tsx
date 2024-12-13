@@ -131,6 +131,7 @@ export const RESUME_DATA = {
         "Node",
         "Express",
         "Web Container",
+        "hugging Face"
       ],
       description:
         "SiteCraftor is an AI-powered platform that automates website creation, allowing users to quickly build professional websites with ease. It streamlines the design and deployment process, making website building accessible to everyone.",
