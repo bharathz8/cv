@@ -119,7 +119,7 @@ export const RESUME_DATA = {
         "PathGPT is an AI platform that suggests personalized career paths or courses based on user inputs, offering tailored recommendations for educational and professional decisions.",
       link: {
         label: "PathGPT",
-        href: "https://path-gpt.vercel.app/",
+        href: "https://pathgpt.netlify.app/",
       },
     },
     {
