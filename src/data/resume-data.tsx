@@ -123,7 +123,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "web builder",
+      title: "siteCrafter",
       techStack: [
         "TypeScript",
         "React",
@@ -136,8 +136,8 @@ export const RESUME_DATA = {
       description:
         "SiteCraftor is an AI-powered platform that automates website creation, allowing users to quickly build professional websites with ease. It streamlines the design and deployment process, making website building accessible to everyone.",
       link: {
-        label: "web builder",
-        href: "https://github.com/bharathz8/website-builder",
+        label: "site crafter",
+        href: "https://sitecrafter.vercel.app/",
       },
     },
     {
@@ -146,7 +146,7 @@ export const RESUME_DATA = {
       description:
         "CryptoViz is a platform that provides real-time statistics and insights on various cryptocurrencies, helping users stay updated on market trends. It offers an easy-to-use interface for tracking coin prices, volume, and other key metrics.",
       link: {
-        label: "Site Craftor",
+        label: "cryptoViz",
         href: "https://github.com/bharathz8/cryptoviz",
       },
     },
